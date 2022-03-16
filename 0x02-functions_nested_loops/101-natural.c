@@ -5,7 +5,7 @@
  * 
  * Return: Always 0 (Success)
  */
-int main(void)
+void print_char(void)
 {
 	int i = 0;
 	int sum = 0;
@@ -15,7 +15,7 @@ int main(void)
 			sum += i;
 
 
-	_printchar("%d", sum);
-	_printchar("\n");
+	_putchar(sum);
+	_putchar("\n");
 	return (0);
 }

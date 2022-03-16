@@ -4,7 +4,7 @@
  *
  * Return: Always 0 (Success)
  */
-void main(void)
+int main(void)
 {
 	char h[] = "_putchar";
 	int m;
@@ -17,4 +17,5 @@ void main(void)
 		m++;
 	}
 	_putchar('\n');
+	return (0);
 }
