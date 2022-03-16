@@ -1,7 +1,9 @@
 #include<stdio.h>
 
-/*
- * This is a description
+/**
+ * @brief description
+ * 
+ * @return int 
  */
 int main(void)
 {
