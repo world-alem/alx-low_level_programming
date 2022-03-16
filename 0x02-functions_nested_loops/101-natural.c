@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include "main.h"
 
 /**
  * main - Entry point
@@ -15,7 +15,7 @@ int main(void)
 			sum += i;
 
 
-	printf("%d", sum);
-	printf("\n");
+	_printchar("%d", sum);
+	_printchar("\n");
 	return (0);
 }
