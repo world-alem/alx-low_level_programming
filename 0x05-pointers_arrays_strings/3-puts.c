@@ -1,8 +1,9 @@
-#include<stdio.h>
+#include "holberton.h"
 /**
- * _puts - prints string with new line followed
+ * _puts - prints a string
  * @str: the string
  *
+ * Return: the length of a string
  */
 void _puts(char *str)
 {
@@ -10,9 +11,8 @@ void _puts(char *str)
 
 	while (str[i] != '\0')
 	{
-		printf("%c", str[i]);
+		_putchar(str[i]);
 		i++;
 	}
-
-	printf("\n");
+	_putchar('\n');
 }

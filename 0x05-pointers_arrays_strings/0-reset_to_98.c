@@ -1,6 +1,9 @@
+#include "holberton.h"
 /**
- * reset_to_98 - takes pointer and updates its value to 98
- * @n: the pointer
+ * reset_to_98 - takes a pointer to an int as parameter
+ * and updates the value it points to 98
+ * @n: parameter to take the value.
+ *
  */
 void reset_to_98(int *n)
 {
