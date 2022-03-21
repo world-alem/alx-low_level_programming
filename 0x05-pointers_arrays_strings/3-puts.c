@@ -6,5 +6,13 @@
  */
 void _puts(char *str)
 {
-	printf("%s\n", *str);
+	int i = 0;
+
+	while (str[i] != '\0')
+	{
+		printf("%s", str[i]);
+		i++;
+	}
+
+	printf("\n");
 }
