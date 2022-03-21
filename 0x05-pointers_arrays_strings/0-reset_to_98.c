@@ -1,9 +1,9 @@
 /**
- * reset_to_98 - Entry
+ * main - Entry
  * 
  * Return : Always 0 (Success)
  */
-void reset_to_98(int *n) {
+int main(int *n) {
   *n = 98;
 
   return (0);
